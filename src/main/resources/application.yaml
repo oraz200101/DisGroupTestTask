@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/dis_group
+    username: root
+    password: shakee2001
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui-custom.html
